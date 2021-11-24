@@ -13,8 +13,8 @@ body{
 }
 
 main{
-    /* margin: auto; */
-    /* max-width: 450px; */
+    margin: auto;
+     max-width: 450px; 
     background-color: white;
     border-radius: 20px; 
     overflow: hidden;
