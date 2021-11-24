@@ -119,6 +119,7 @@ h2{
     }
     main{
         width: 330px;
+        margin: auto;
     }
     .plan_price{
         padding-right: 15px;
