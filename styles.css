@@ -19,7 +19,6 @@ main{
     background-color: white;
     border-radius: 20px; 
     overflow: hidden;
-    /* min-width: 200px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +41,6 @@ h2{
  .text p{
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 500;
-    
     color: hsl(224, 23%, 55%);
     
     
@@ -60,17 +58,18 @@ h2{
     
 
  }
+
  h4{
     font-weight: 700;
     color: hsl(223, 47%, 23%);
  }
+
  .plan_price{
-     /* padding-right: 70px; */
-    
      font-family: 'Red Hat Display', sans-serif;
      color: hsl(224, 23%, 55%);
  }
-   .plan a{
+
+.plan a{
     color :hsl(245, 75%, 52%);
     font-family: 'Red Hat Display', sans-serif;
     text-decoration: underline;
@@ -96,20 +95,18 @@ h2{
      color: white;
      font-family: 'Red Hat Display', sans-serif;
     font-weight: 500;
-    
-    
-
  }
  .cancel{
-     margin: 30px auto ;
-
+     margin: 30px auto;
  }
+
  .cancel a{
      text-decoration: none;
      margin: 30px;
      font-family: 'Red Hat Display', sans-serif;
      color: hsl(224, 23%, 55%);
  }
+
  @media only screen and (max-width: 600px) {
     body {
       background-image: url(./images/pattern-background-mobile.svg);
